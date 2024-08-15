@@ -35,7 +35,7 @@ function About() {
                     <div className='size-1 bg-white rounded-full'></div>
                     </button>
             </div>
-            <div className='w-1/2 h-[55vh] bg-yellow-300 rounded-3xl'>
+            <div className='w-1/2 h-[55vh] rounded-3xl bg-photograph bg-center bg-cover'>
             </div>
         </div>
 
