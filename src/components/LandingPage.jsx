@@ -20,9 +20,9 @@ function LandingPage() {
             {["For public and private companies","From the first pitch to IPO"].map((paras,index)=>(
                 <p key={index} className=' text-lg leading-none tracking-tight'>{paras}</p>
             ))}
-            <div id='startProject' className='flex items-center justify-center gap-3 group'>
-                <button className='px-4 py-1 rounded-full border-2 border-zinc-600 uppercase tracking-tight font-semibold group-hover:bg-black group-hover:text-white'>start the project</button>
-                <div className='rounded-full border-2 border-zinc-600 p-2 text-xl font-semibold group-hover:bg-black group-hover:text-white'>
+            <div id='startProject' className='flex items-center justify-center gap-3 group '>
+                <button className='px-4 py-1 rounded-full border-2 border-zinc-600 uppercase tracking-tight font-semibold group-hover:bg-black group-hover:text-white transition duration-700 '>start the project</button>
+                <div className='rounded-full border-2 border-zinc-600 p-2 text-xl font-semibold group-hover:bg-black group-hover:text-white transition duration-700 '>
                     <MdArrowOutward />
                 </div>
             </div>
