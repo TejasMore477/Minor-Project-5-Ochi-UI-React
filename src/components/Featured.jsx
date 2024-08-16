@@ -33,6 +33,9 @@ function Featured() {
                         </div>
             ))}
         </div>
+        <div className='grid place-items-center mb-5'>
+        <div className='px-5 py-3 rounded-full flex items-center justify-center bg-black text-white group'>  <button className='font-semibold w-fit mr-2'>VIEW ALL CASE STUDIES</button></div>
+        </div>
     </div>
   )
 }

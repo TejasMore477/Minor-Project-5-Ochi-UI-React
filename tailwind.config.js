@@ -17,6 +17,9 @@ export default {
       'Feature2':"url('src/assets/images/Vise_front2-1326x1101.jpg')",
       'Feature3':"url('src/assets/images/PB-Front-4-1326x1101.png')",
       'Feature4':"url('src/assets/images/Frame-3875-1326x1101.jpg')",
+      'icon1':"url('src/assets/images/logo001.svg')",
+      'icon2':"url('src/assets/images/logo002.svg')",
+      'icon3':"url('src/assets/images/logo003.png')",
     }
   },
   plugins: [],
