@@ -29,8 +29,8 @@ function About() {
         <div className='w-full border-t-[1px] border-gray-600 mt-20'></div>
         <div className='flex items-start justify-between w-full pt-4'>
             <div className='w-1/2'>
-                <h1 className='text-[3vw]'>Our approach:</h1>
-                <button className='w-36 px-3 py-4 rounded-full bg-black text-white flex items-center gap-3'>
+                <h1 className='text-[3vw] font-semibold tracking-tight'>Our approach:</h1>
+                <button className='w-36 mt-3 px-3 py-4 rounded-full bg-black text-white flex items-center gap-3'>
                     READ MORE
                     <div className='size-1 bg-white rounded-full'></div>
                     </button>
