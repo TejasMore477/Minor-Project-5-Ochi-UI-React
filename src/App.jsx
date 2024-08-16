@@ -6,6 +6,7 @@ import About from './components/About'
 import Playfull from './components/Playfull'
 import Featured from './components/Featured'
 import Cards from './components/Cards'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Playfull />
         <Featured />
         <Cards />
+        <Footer />
       </div>
     
     </>
