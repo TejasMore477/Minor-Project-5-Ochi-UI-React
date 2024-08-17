@@ -35,7 +35,7 @@ function About() {
                     <div className='size-1 bg-white rounded-full'></div>
                     </button>
             </div>
-            <div className='md:w-1/2 w-full h-[55vh] rounded-3xl bg-photograph bg-center bg-cover'>
+            <div style={{ backgroundImage: "url('src/assets/images/Photo-1326x939.jpg')" }} className='md:w-1/2 w-full h-[55vh] rounded-3xl bg-center bg-cover'>
             </div>
         </div>
 
