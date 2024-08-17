@@ -24,15 +24,15 @@ function Playfull() {
   }, []);
 
   const elements = Array.from({ length: 2 }).map((_, i) => (
-    <div key={i} className='size-[14vw] bg-white rounded-full grid items-center justify-center'>
-      <div className='size-[8.5vw] bg-black relative rounded-full'>
+    <div key={i} className='md:size-[14vw] size-[40vw] bg-white rounded-full grid items-center justify-center'>
+      <div className='md:size-[8.5vw] size-[23vw] bg-black relative rounded-full'>
         <div
           style={{
             transform: `translate(-50%, -50%) rotate(${rotateVal}deg)`,
           }}
           className='w-full absolute top-1/2 left-1/2'
         >
-          <div className='size-[1.5vw] top-0 right-0 bg-white rounded-full'></div>
+          <div className='md:size-[1.5vw] size-[6vw] top-0 right-0 bg-white rounded-full'></div>
         </div>
       </div>
     </div>

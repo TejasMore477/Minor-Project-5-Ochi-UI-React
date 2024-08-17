@@ -24,26 +24,26 @@ function StartProject() {
     }, []);
   
     const elements = Array.from({ length: 2 }).map((_, i) => (
-      <div key={i} className='size-[14vw] bg-white rounded-full grid items-center justify-center'>
-        <div className='size-[8.5vw] bg-black relative rounded-full'>
+      <div key={i} className='md:size-[14vw] size-[38vw] bg-white rounded-full grid items-center justify-center'>
+        <div className='md:size-[8.5vw] size-[24vw] bg-black relative rounded-full'>
           <div
             style={{
               transform: `translate(-50%, -50%) rotate(${rotateVal}deg)`,
             }}
             className='w-full absolute top-1/2 left-1/2'
           >
-            <div className='size-[1.5vw] top-0 right-0 bg-white rounded-full'></div>
+            <div className='md:size-[1.5vw] size-[5vw] top-0 right-0 bg-white rounded-full'></div>
           </div>
         </div>
       </div>
     ));
   return (
-    <div className='w-full h-screen bg-lime-400 pt-20 relative'>
-        <h1 className='font-extrabold text-[12.5vw] uppercase leading-[10vw] text-center tracking-tighter'>Ready</h1>
-        <h1 className='font-extrabold text-[12.5vw] uppercase leading-[10vw] text-center tracking-tighter'>to start</h1>
-        <h1 className='font-extrabold text-[12.5vw] uppercase leading-[10vw] text-center tracking-tighter'>the project?</h1>
+    <div className='w-full md:h-screen h-[80vh] md:mt-0 mt-[10vh] bg-lime-400 pt-20 relative'>
+        <h1 className='font-extrabold md:text-[12.5vw] text-[18vw] uppercase md:leading-[10vw] leading-[17vw] text-center tracking-tighter'>Ready</h1>
+        <h1 className='font-extrabold md:text-[12.5vw] text-[18vw] uppercase md:leading-[10vw] leading-[17vw] text-center tracking-tighter'>to start</h1>
+        <h1 className='font-extrabold md:text-[12.5vw] text-[18vw] uppercase md:leading-[10vw] leading-[17vw] text-center tracking-tighter'>the project?</h1>
 
-        <div  data-scroll data-scroll-section data-scroll-speed=".6" className='absolute top-[40%] left-[35%] -translate-x-[50%] -translate-y-[70%] flex items-center justify-center gap-5'>
+        <div  data-scroll data-scroll-section data-scroll-speed=".6" className='absolute md:top-[40%] top-[55%] md:left-[35%] left-[10%] -translate-x-[50%] -translate-y-[70%] flex items-center justify-center gap-5'>
           {elements}
         </div>
 
