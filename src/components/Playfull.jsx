@@ -40,7 +40,7 @@ function Playfull() {
 
   return (
     <div className='h-screen w-full overflow-hidden'>
-      <div className='w-full h-full bg-playFullBg bg-center bg-cover relative'>
+      <div  data-scroll data-scroll-section data-scroll-speed="-.7" className='w-full h-full bg-playFullBg bg-center bg-cover relative'>
         <div className='absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex items-center justify-center gap-5'>
           {elements}
         </div>

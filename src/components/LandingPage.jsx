@@ -1,15 +1,16 @@
 import React from 'react'
 import { MdArrowOutward } from "react-icons/md";
+import { motion } from 'framer-motion';
 
 function LandingPage() {
   return (
-    <div className='w-full h-screen bg-slate-50 border-t-2 px-16'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.4" className='w-full h-screen bg-slate-50 border-t-2 px-16'>
         <div className='w-full relative'>
             <div className='mt-48 w-fit'>
                 {["We create","eye-opening","presentations"].map((word, index)=>(
                     <div key={index} className='flex items-center justify-start gap-3'>
-                        {index === 1 && (<div className='w-[11vw]  h-[7vw] rounded-md overflow-hidden bg-landingImage bg-center bg-cover'> 
-                        </div>)}
+                        {index === 1 && (<motion.div initial={{width:0}} animate={{width:"11vw"}} transition={{ease:[0.76, 0, 0.24, 1], duration:1}} className='w-[11vw]  h-[7vw] rounded-md overflow-hidden bg-landingImage bg-center bg-cover'> 
+                        </motion.div>)}
                         <div className='font-title text-[8.3vw] font-extrabold leading-[7.4vw] overflow-hidden'><h1>{word}</h1></div>
                     </div>
                 ))}
