@@ -11,7 +11,7 @@ function Footer() {
 
     const [link, setlinks] = useState(linksData);
   return (
-    <div  data-scroll data-scroll-section data-scroll-speed=".1" className='w-full h-screen grid grid-cols-2 gap-5 px-16 pt-20 pb-10'>
+    <div data-scroll data-scroll-section data-scroll-speed=".3" className='w-full h-screen grid grid-cols-2 gap-5 px-16 pt-20 pb-10'>
         <div className='w-full h-full flex items-start justify-between flex-col'>
             <h1 className='font-title text-[6.3vw] font-extrabold leading-[5vw]'>eye- <br />
             opening</h1>

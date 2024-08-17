@@ -7,6 +7,7 @@ import Playfull from './components/Playfull'
 import Featured from './components/Featured'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
+import StartProject from './components/StartProject'
 import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         <Playfull />
         <Featured />
         <Cards />
-        <Playfull />
+        <StartProject />
         <Footer />
       </div>
     

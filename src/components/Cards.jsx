@@ -9,7 +9,7 @@ function Cards() {
 
     const [pack, setPack] = useState(packs);
   return (
-    <div  data-scroll data-scroll-section data-scroll-speed="-.1" className='h-screen w-full grid grid-flow-col px-16 gap-5'>
+    <div  data-scroll data-scroll-section data-scroll-speed="-.2"  className='h-[80vh] w-full grid grid-flow-col px-16 gap-5 '>
         {pack.map((items,index)=>(
            <div key={index} className={`h-[53vh] mt-32 rounded-2xl px-6 py-3 ${index === 0? "w-[45vw] bg-emerald-800":"w-[22vw] bg-zinc-900"}`}>
                 <div className='w-full h-[85%] grid place-items-center'>   
