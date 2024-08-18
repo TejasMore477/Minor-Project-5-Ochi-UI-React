@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='w-full rounded-t-[3.4rem] rounded-b-[1rem] overflow-hidden bg-lime-400 py-20 md:px-16 px-5'>
+    <div className='w-full md:rounded-t-[3.4rem] rounded-b-[1rem] overflow-hidden bg-lime-400 py-20 md:px-16 px-5'>
         <h2 className='md:text-[3.5vw] text-[5.5vw] leading-none'>
             Ochi is a strategic presentation agency for forward-thinking businesses that need to <span>raise funds</span>, 
             <span className='underline'> sell prod­ucts</span>, 
