@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 
 function Cards() {
     const packs = [
-        {logo:"src/assets/images/logo001.svg",btn:"©2019-2020"},
-        {logo:"src/assets/images/logo002.svg",btn:"RATTING 5.0 ON CLUTCH"},
-        {logo:"src/assets/images/logo003.png",btn:"BUISNESS BOOTCAMP ALUMINI"},
+        {logo:"	https://ochi.design/wp-content/uploads/2022/04/logo001.svg",btn:"©2019-2020"},
+        {logo:"https://ochi.design/wp-content/uploads/2022/04/logo002.svg",btn:"RATTING 5.0 ON CLUTCH"},
+        {logo:"	https://ochi.design/wp-content/uploads/2022/04/logo003.png",btn:"BUISNESS BOOTCAMP ALUMINI"},
     ]
 
     const [pack, setPack] = useState(packs);
